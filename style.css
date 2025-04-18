@@ -1,0 +1,228 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
+
+.btn.btn2 {
+    display: inline-block;
+    background: #0429fa;
+    border-radius: 3px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.social-icons a {
+    font-size: 30px;
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #ffc400;
+    cursor: pointer;
+    padding: 1px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+
+/*-------------small screen-------------*/
+nav .fa-solid {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    html {
+        height: 100%;
+        width: 100%;
+    }
+
+    nav li {
+        display: none;
+    }
+
+    #about {
+        height: 100%;
+        width: 100%;
+    }
+
+    #services {
+        height: 100%;
+        width: 100%;
+    }
+
+    #social {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #work {
+        width: 100%;
+        height: 100%;
+    }
+
+    #details {
+        width: 100%;
+        height: 100%;
+    }
+
+    #secloc {
+        width: 100%;
+        height: 100%;
+    }
+
+    #loc {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 40px;
+    }
+
+    #search {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 10px;
+
+    }
+
+    #query {
+        width: 100%;
+        height: 100%;
+    }
+
+    #quote {
+        height: 100%;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 10px;
+        padding-right: 30px;
+
+    }
+
+    #footer {
+        width: 100%;
+
+    }
+
+    #foot {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+
+    #mapsrc {
+        display: none;
+        position: relative;
+        bottom: 10px;
+        padding: 0 40px;
+        border: 1px solid;
+        min-height: 100px;
+
+    }
+
+    #social {
+        width: 100%;
+    }
+
+    header {
+        height: 100%;
+        width: 100%;
+    }
+
+    #bgvideo {
+        width: 100%;
+        height: 100%;
+    }
+
+    #yt {
+        height: 10px;
+        width: 20px;
+        background-image: url(images/youtube-logo-png-photo-0-300x225.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #insta {
+        height: 10px;
+        width: 20px;
+        background-image: url(images/instagram-logo-web-print-uses-instagram-logo-transparent-white-background-web-use-printing-purpose-264835084-removebg-preview.png);
+        background-position: center;
+        background-size: 20px;
+        background-repeat: no-repeat;
+    }
+
+    #map {
+        height: 10px;
+        width: 20px;
+        background-image: url(images/images-removebg-preview.png);
+        background-position: center;
+        background-size: 20px;
+        background-repeat: no-repeat;
+    }
+
+    #whatsapp {
+        height: 10px;
+        width: 20px;
+        background-image: url(images/whatsapp-removebg-preview.png);
+        background-position: center;
+        background-size: 20px;
+        background-repeat: no-repeat;
+    }
+
+    #ytim {
+        display: none;
+    }
+
+    #instaim {
+        display: none;
+    }
+
+    #mapim {
+        display: none;
+    }
+
+    #wpim {
+        display: none;
+    }
+
+    #sp {
+        display: none;
+    }
+
+
+
+
+}
